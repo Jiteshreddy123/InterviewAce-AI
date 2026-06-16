@@ -165,3 +165,7 @@ select {
 .controls select {
     flex: 1;
 }
+
+#copyBtn {
+    display: none;
+}

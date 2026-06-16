@@ -44,6 +44,7 @@ askBtn.addEventListener("click", async () => {
         const data = await response.json();
 
         responseBox.innerHTML = data.answer;
+        copyBtn.style.display = "block";
 
     } catch (error) {
 
