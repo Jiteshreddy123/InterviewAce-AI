@@ -1,6 +1,6 @@
-# AI Interview Answer Generator
+# InterviewAce AI
 
-A full-stack AI-powered web application that helps students and job seekers prepare for interviews by generating recruiter-ready answers instantly.
+An AI-powered interview preparation platform that generates recruiter-ready answers, key discussion points, and follow-up questions using Gemini AI.
 
 ## Features
 
