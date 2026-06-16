@@ -18,25 +18,24 @@ app.post("/ask", async (req, res) => {
 
     try {
 
-        const question = req.body.question;
+        const { question, role ,difficulty} = req.body;
 
         const response = await ai.models.generateContent({
             model: "gemini-2.5-flash",
-            contents: `
-You are an experienced software engineering interviewer.
+           contents: `
+You are an expert ${role} interviewer.
 
-For every question provide:
+Provide:
 
-1. Recruiter-Friendly Answer
+1. Recruiter Ready Answer
 2. Key Interview Points
-3. Common Mistakes
-4. Possible Follow-Up Questions
-
-Keep answers concise and professional.
+3. Follow Up Questions
 
 Question:
 ${question}
-            `
+Difficulty Level:
+${difficulty}
+`
         });
 
        res.json({
@@ -53,8 +52,7 @@ ${question}
     }
 });
 
-const PORT = 3000;
-
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });

@@ -17,7 +17,19 @@
    Get recruiter-ready answers, key points,
 and follow-up questions instantly.
 </p>
-
+<div class="controls">
+        <select id="roleSelect">
+    <option value="Software Engineer">Software Engineer</option>
+    <option value="Java Developer">Java Developer</option>
+    <option value="Data Analyst">Data Analyst</option>
+    <option value="Machine Learning Engineer">Machine Learning Engineer</option>
+</select>
+<select id="difficulty">
+    <option value="Easy">Easy</option>
+    <option value="Metdium">Medium</option>
+    <option value="Hard">Hard</option>
+</select>
+</div>
         <textarea
             id="questionInput"
             placeholder="Example: Explain polymorphism in Java">
@@ -28,7 +40,9 @@ and follow-up questions instantly.
         </button>
 
         <div id="responseBox">
-
+         <button id="copyBtn">
+    Copy Answer
+</button>
         </div>
 
     </div>
