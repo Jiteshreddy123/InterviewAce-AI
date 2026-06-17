@@ -3,6 +3,8 @@
 InterviewAce AI is a full-stack AI-powered interview preparation platform that helps students and job seekers generate recruiter-ready answers, key interview points, follow-up questions, and personalized feedback using Google's Gemini AI.
 
 ## User Interface
+<img width="1770" height="897" alt="Screenshot 2026-06-17 210718" src="https://github.com/user-attachments/assets/3a00e54e-6468-4354-962e-16e01412cf09" />
+<img width="1770" height="897" alt="Screenshot 2026-06-17 210824" src="https://github.com/user-attachments/assets/f8f6dd11-fb62-4250-ba50-9b8c8a15dad4" />
 <img width="1913" height="967" alt="Screenshot 2026-06-17 210855" src="https://github.com/user-attachments/assets/084b7e56-4c8d-402a-8053-0615214f2d1f" />
 
 
